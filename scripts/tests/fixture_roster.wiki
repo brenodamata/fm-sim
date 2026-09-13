@@ -1,0 +1,102 @@
+== Transfers in ==
+Appears BEFORE the roster in many articles. Has Pos. and Player columns, so a
+"first table that parses" strategy returns this as the squad.
+{| class="wikitable"
+|-
+! {{abbr|Pos.|Position}} !! Player !! Transferred from !! Fee !! Date !! Team
+|-
+| DF || {{flagicon|BRA}} [[Sexto Zagueiro]] || [[Algum Clube]] || R$66.9m || 1 January 2026 || First team
+|-
+| MF || {{flagicon|BRA}} [[Setimo Meia]] || [[Outro Clube]] || Free || 15 January 2026 || First team
+|}
+
+== Roster ==
+Fictional club, real structure. Mirrors the markup Brazilian season articles
+actually use, so the parser is tested against the shapes that broke it:
+abbr-wrapped headers, one cell per line, wikilinked positions, flagicon
+nationalities, birth date and age2, and a {{sort}} template whose closing braces
+look like a table terminator.
+{{updated|9 September 2026}}
+{| class="wikitable sortable" style="text-align:center; font-size:90%; width:90%"
+|-
+! text-align:center;" style="width:5%;"|{{abbr|No.|Squad number}}
+! text-align:center;" style="width:5%;"|{{abbr|Pos.|Primary position}}
+! text-align:center;" style="width:1%;"|{{abbr|Nat.|Nationality}}
+! text-align:center;" style="width:10%;"| Name
+! text-align:center;" style="width:12%;"| Date of birth (age)
+! text-align:center;" style="width:6%;"| Signed in
+! text-align:center;" style="width:6%;"| Contract end
+! text-align:center;" style="width:10%;"| Signed from
+! text-align:center;" style="width:5%;"| [[Transfer (association football)|Transfer fee]]
+! text-align:left;" style="width:10%;"| Notes
+|-
+! colspan="10" style="background:#dcdcdc; text-align:center" |{{sort|0|''Goalkeepers''}}
+|-
+| 1
+| [[Goalkeeper (association football)|GK]]
+| style="text-align:center;"|{{flagicon|ARG}}
+| style="text-align:left;"|[[Fulano Primeiro (footballer)|Fulano Primeiro]]
+| style="text-align:left;"|{{birth date and age2|2026|12|31|1995|8|21|df=y}}
+| 2023
+| 2027
+| style="text-align:left;"|{{flagicon|ARG}} [[Club Ficticio]]
+| {{sort|0.02|Free}}
+|
+|-
+| 49
+| [[Goalkeeper (association football)|GK]]
+| style="text-align:center;"|{{flagicon|BRA}}
+| style="text-align:left;"|[[Sicrano Segundo]]
+| style="text-align:left;"|{{birth date and age2|2026|12|31|2004|1|9|df=y}}
+| 2025
+| 2026
+| style="text-align:left;"|[[Clube Ficticio (youth)|Youth system]]
+| {{sort|0.01|}}
+|
+|-
+! colspan="10" style="background:#dcdcdc; text-align:center" |{{sort|1|''Defenders''}}
+|-
+| 2
+| [[Defender (association football)|RB]]
+| style="text-align:center;"|{{flagicon|URU}}
+| style="text-align:left;"|[[Beltrano Terceiro]]
+| style="text-align:left;"|{{birth date and age2|2026|12|31|1993|3|24|df=y}}
+| 2022
+| 2027
+| style="text-align:left;"|[[Otro Club]]
+| {{sort|0.02|Free}}
+|
+|-
+| 3
+| [[Defender (association football)|CB]]
+| style="text-align:center;"|{{flagicon|BRA}}
+| style="text-align:left;"|[[Quarto Jogador]]
+| style="text-align:left;"|{{birth date and age2|2026|12|31|1996|1|3|df=y}}
+| 2024
+| 2028
+| style="text-align:left;"|[[Mais Um Clube]]
+| €7.0m
+|
+|-
+! colspan="10" style="background:#dcdcdc; text-align:center" |{{sort|3|''Forwards''}}
+|-
+| 9
+| [[Forward (association football)|CF]]
+| style="text-align:center;"|{{flagicon|BRA}}
+| style="text-align:left;"|[[Quinto Atacante (footballer, born 1997)|Quinto Atacante]]
+| style="text-align:left;"|{{birth date and age2|2026|12|31|1997|6|20|df=y}}
+| 2020
+| 2027
+| style="text-align:left;"|[[Clube Europeu]]
+| €14.0m
+|
+|}
+
+== Appearances ==
+Must be ignored: same column shape, different meaning.
+{| class="wikitable"
+|-
+! {{abbr|No.|Squad number}} !! {{abbr|Pos.|Position}} !! Name !! Starts !! Subs !! Goals
+|-
+| 1 || GK || Fulano Primeiro || 24 || 0 || 0
+|}

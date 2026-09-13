@@ -1,0 +1,11 @@
+[package]
+name = "sim-harness"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Headless runner: generates worlds, sweeps parameters, emits metrics."
+
+[dependencies]
+sim-core = { path = "../sim-core" }
+rand.workspace = true
+rand_chacha.workspace = true

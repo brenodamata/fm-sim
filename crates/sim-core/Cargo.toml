@@ -1,0 +1,11 @@
+[package]
+name = "sim-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Pure simulation core: domain model, determinism contract, world generation."
+
+[dependencies]
+rand.workspace = true
+rand_chacha.workspace = true
+siphasher.workspace = true

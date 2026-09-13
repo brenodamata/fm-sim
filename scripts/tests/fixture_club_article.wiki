@@ -1,0 +1,17 @@
+{{Infobox football club}}
+'''Fictional Football Club''' is a Brazilian club.
+
+==Players==
+===Current squad===
+{{updated|12 September 2026}}
+{{Fs start}}
+{{Fs player|no=1|nat=Brazil|pos=GK|name=[[Goleiro Titular (footballer, born 1995)|Goleiro Titular]]}}
+{{Fs player|no=4|nat=Uruguay|pos=DF|name=[[Zagueiro Central]]}}
+{{Fs player|no=8|nat=Brazil|pos=MF|name=[[Volante Marcador (footballer, born 1999)|Volante Marcador]]}}
+{{Fs player|no=9|nat=Colombia|pos=FW|name=[[Atacante Principal]]}}
+{{Fs end}}
+
+===Out on loan===
+{{Fs start}}
+{{Fs player|no=27|nat=Brazil|pos=MF|name=[[Emprestado Fora]]}}
+{{Fs end}}

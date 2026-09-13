@@ -1,0 +1,17 @@
+==Current squad==
+Fictional club, real structure: the {{Fs player}} layout, with a capital F and
+full country names rather than codes.
+{{updated|6 August 2026}}
+{{Fs start}}
+{{Fs player|no=1|nat=Brazil|pos=GK|name=[[Primeiro Goleiro (footballer, born 1987)|Primeiro Goleiro]]}}
+{{Fs player|no=2|nat=Brazil|pos=DF|name=[[Segundo Zagueiro Silva|Segundo Zagueiro]]}}
+{{Fs player|no=17|nat=Colombia|pos=FW|name=[[Terceiro Atacante]]}}
+{{fs mid}}
+{{Fs player|no=25|nat=Argentina|pos=DF|name=[[Quarto Lateral]]}}
+{{Fs player|no=29|nat=Netherlands|pos=MF|name=[[Quinto Volante]]|other=[[Captain (association football)|captain]]}}
+{{Fs end}}
+
+===Out on loan===
+{{Fs start}}
+{{Fs player|no=31|nat=Brazil|pos=MF|name=[[Emprestado Jogador]]}}
+{{Fs end}}

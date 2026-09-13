@@ -1,0 +1,20 @@
+# Tuning constants.
+#
+# Data, not code (see sim-core::tuning). Balance changes are diffable and have
+# history, and the harness can override any key for a sweep without editing this
+# file. The config hash of every run is recorded in its manifest.
+
+[worldgen]
+worldgen.divisions = 2
+worldgen.clubs_per_division = 20
+worldgen.squad_size = 26
+worldgen.epoch_year = 2026
+
+# Mean coarse ability of the median top-division club, on the 1..20 scale.
+worldgen.top_division_strength = 13.0
+# How much weaker each successive division is.
+worldgen.division_step = 2.0
+# Spread of club strength within a division.
+worldgen.club_spread = 1.6
+# Spread of individual players around their club's level.
+worldgen.player_spread = 1.5

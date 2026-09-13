@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+members = ["crates/sim-core", "crates/sim-harness"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[workspace.dependencies]
+rand = { version = "0.8", default-features = false, features = ["std"] }
+rand_chacha = "0.3"
+siphasher = "1"
